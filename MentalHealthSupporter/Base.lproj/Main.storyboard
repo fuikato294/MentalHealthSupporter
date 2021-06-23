@@ -83,14 +83,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kmK-zr-tSB">
-                                <rect key="frame" x="87" y="384" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kmK-zr-tSB">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="KjH-4g-FfS">
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KjH-4g-FfS" id="9id-N8-Osd">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Wvk-bD-Cfr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kmK-zr-tSB" firstAttribute="top" secondItem="Wvk-bD-Cfr" secondAttribute="top" id="5zc-Em-7bV"/>
+                            <constraint firstItem="Wvk-bD-Cfr" firstAttribute="trailing" secondItem="kmK-zr-tSB" secondAttribute="trailing" id="aQk-Vc-3cQ"/>
+                            <constraint firstItem="Wvk-bD-Cfr" firstAttribute="bottom" secondItem="kmK-zr-tSB" secondAttribute="bottom" id="yle-wS-76m"/>
+                            <constraint firstItem="kmK-zr-tSB" firstAttribute="leading" secondItem="Wvk-bD-Cfr" secondAttribute="leading" id="zxq-z9-G9B"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="自立支援医療" id="UWj-Fd-2yO"/>
                     <connections>
@@ -109,14 +124,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Y9g-GU-b9o">
-                                <rect key="frame" x="55" y="378" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Y9g-GU-b9o">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="aGh-Zv-Vxf">
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aGh-Zv-Vxf" id="Rg3-jq-08z">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Mvl-Me-FU7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Y9g-GU-b9o" firstAttribute="top" secondItem="Mvl-Me-FU7" secondAttribute="top" id="GMj-G9-8YG"/>
+                            <constraint firstItem="Mvl-Me-FU7" firstAttribute="bottom" secondItem="Y9g-GU-b9o" secondAttribute="bottom" id="GoJ-Qd-3jf"/>
+                            <constraint firstItem="Mvl-Me-FU7" firstAttribute="trailing" secondItem="Y9g-GU-b9o" secondAttribute="trailing" id="Xzf-8b-jiV"/>
+                            <constraint firstItem="Y9g-GU-b9o" firstAttribute="leading" secondItem="Mvl-Me-FU7" secondAttribute="leading" id="Yu0-cy-yg7"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="精神保健福祉手帳" id="G1h-ad-aky"/>
                     <connections>
@@ -163,14 +193,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3f1-NT-sSC">
-                                <rect key="frame" x="71" y="273" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3f1-NT-sSC">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="Qf8-Ck-8iF">
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Qf8-Ck-8iF" id="lnn-k2-aBf">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nkO-mN-gM2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3f1-NT-sSC" firstAttribute="top" secondItem="nkO-mN-gM2" secondAttribute="top" id="1g2-Kc-DCM"/>
+                            <constraint firstItem="3f1-NT-sSC" firstAttribute="leading" secondItem="nkO-mN-gM2" secondAttribute="leading" id="2vg-yH-ZYT"/>
+                            <constraint firstItem="nkO-mN-gM2" firstAttribute="trailing" secondItem="3f1-NT-sSC" secondAttribute="trailing" id="87l-Dj-DNw"/>
+                            <constraint firstItem="nkO-mN-gM2" firstAttribute="bottom" secondItem="3f1-NT-sSC" secondAttribute="bottom" id="os9-qO-Wjf"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="障害年金" id="cLT-vs-Fnj"/>
                     <connections>
