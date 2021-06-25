@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="46" id="KGk-i7-Jjw" customClass="CustomTableViewCell" customModule="MentalHealthSupporter" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="368" height="46"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="368" height="46"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bb-bD-YTU">
+                        <rect key="frame" x="10" y="0.0" width="38" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="38" id="DsA-an-aRr"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="check complete"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dMj-sP-7h1">
+                        <rect key="frame" x="58" y="0.0" width="252" height="40"/>
+                        <state key="normal" title="Button" image="SpepButton"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0el-uO-15i">
+                        <rect key="frame" x="68" y="10" width="232" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="2bb-bD-YTU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="8SB-4a-1mJ"/>
+                    <constraint firstItem="2bb-bD-YTU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Buq-9X-fZ5"/>
+                    <constraint firstItem="dMj-sP-7h1" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="JxO-NM-St8"/>
+                    <constraint firstItem="0el-uO-15i" firstAttribute="leading" secondItem="2bb-bD-YTU" secondAttribute="trailing" constant="20" id="SEj-rU-QzS"/>
+                    <constraint firstItem="0el-uO-15i" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="SSj-7f-FtR"/>
+                    <constraint firstAttribute="bottom" secondItem="dMj-sP-7h1" secondAttribute="bottom" constant="6" id="cvL-tq-Mhu"/>
+                    <constraint firstItem="dMj-sP-7h1" firstAttribute="centerY" secondItem="2bb-bD-YTU" secondAttribute="centerY" id="hEt-5u-Cb7"/>
+                    <constraint firstItem="dMj-sP-7h1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="kv0-yo-Vsz"/>
+                    <constraint firstAttribute="bottom" secondItem="2bb-bD-YTU" secondAttribute="bottom" constant="6" id="mDj-Fb-Jjf"/>
+                    <constraint firstAttribute="bottom" secondItem="0el-uO-15i" secondAttribute="bottom" constant="16" id="p6R-p0-X2P"/>
+                    <constraint firstItem="0el-uO-15i" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="r02-jb-yLw"/>
+                    <constraint firstItem="dMj-sP-7h1" firstAttribute="leading" secondItem="2bb-bD-YTU" secondAttribute="trailing" constant="10" id="rEK-rc-jaI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="checkButton" destination="2bb-bD-YTU" id="qaW-PN-tm2"/>
+                <outlet property="stepButton" destination="dMj-sP-7h1" id="BRC-Iy-Y4v"/>
+                <outlet property="stepLabelText" destination="0el-uO-15i" id="oFH-w7-mwF"/>
+            </connections>
+            <point key="canvasLocation" x="127.53623188405798" y="-22.767857142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="SpepButton" width="217.5" height="34"/>
+        <image name="check complete" width="24" height="34"/>
+    </resources>
+</document>

@@ -19,7 +19,7 @@
                         <viewLayoutGuide key="safeArea" id="suV-nN-adV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="ホーム" id="Iji-pC-sB3"/>
+                    <tabBarItem key="tabBarItem" title="ホーム" image="Home black" id="Iji-pC-sB3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SDM-ZG-mTY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -86,16 +86,6 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kmK-zr-tSB">
                                 <rect key="frame" x="0.0" y="44" width="414" height="769"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="KjH-4g-FfS">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KjH-4g-FfS" id="9id-N8-Osd">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Wvk-bD-Cfr"/>
@@ -107,7 +97,7 @@
                             <constraint firstItem="kmK-zr-tSB" firstAttribute="leading" secondItem="Wvk-bD-Cfr" secondAttribute="leading" id="zxq-z9-G9B"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="自立支援医療" id="UWj-Fd-2yO"/>
+                    <tabBarItem key="tabBarItem" title="自立支援医療" image="Independent" id="UWj-Fd-2yO"/>
                     <connections>
                         <outlet property="tableView" destination="kmK-zr-tSB" id="zUK-xi-TuO"/>
                     </connections>
@@ -127,16 +117,6 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Y9g-GU-b9o">
                                 <rect key="frame" x="0.0" y="44" width="414" height="769"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="aGh-Zv-Vxf">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aGh-Zv-Vxf" id="Rg3-jq-08z">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Mvl-Me-FU7"/>
@@ -148,7 +128,7 @@
                             <constraint firstItem="Y9g-GU-b9o" firstAttribute="leading" secondItem="Mvl-Me-FU7" secondAttribute="leading" id="Yu0-cy-yg7"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="精神保健福祉手帳" id="G1h-ad-aky"/>
+                    <tabBarItem key="tabBarItem" title="手帳" image="Identification" id="G1h-ad-aky"/>
                     <connections>
                         <outlet property="tableView" destination="Y9g-GU-b9o" id="F8S-sH-I32"/>
                     </connections>
@@ -196,16 +176,6 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3f1-NT-sSC">
                                 <rect key="frame" x="0.0" y="44" width="414" height="769"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="Qf8-Ck-8iF">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Qf8-Ck-8iF" id="lnn-k2-aBf">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nkO-mN-gM2"/>
@@ -217,7 +187,7 @@
                             <constraint firstItem="nkO-mN-gM2" firstAttribute="bottom" secondItem="3f1-NT-sSC" secondAttribute="bottom" id="os9-qO-Wjf"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="障害年金" id="cLT-vs-Fnj"/>
+                    <tabBarItem key="tabBarItem" title="障害年金" image="Pension" id="cLT-vs-Fnj"/>
                     <connections>
                         <outlet property="tableView" destination="3f1-NT-sSC" id="Xfc-SV-21L"/>
                     </connections>
@@ -236,7 +206,7 @@
                         <viewLayoutGuide key="safeArea" id="dHb-uV-c7o"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="スケジュール" id="Zk9-rt-dyX"/>
+                    <tabBarItem key="tabBarItem" title="次にやること" image="Next" id="Zk9-rt-dyX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ug1-Vs-j61" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -245,13 +215,76 @@
         <!--Login View Controller-->
         <scene sceneID="2Ey-Yr-GvD">
             <objects>
-                <viewController storyboardIdentifier="Login" id="RVH-zI-Piy" userLabel="Login View Controller" customClass="LoginViewController" customModule="MentalHealthSupporter" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Login" modalPresentationStyle="fullScreen" id="RVH-zI-Piy" userLabel="Login View Controller" customClass="LoginViewController" customModule="MentalHealthSupporter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cdI-7g-vnW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="メールアドレス" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4ru-eo-8uL">
+                                <rect key="frame" x="57" y="244" width="300" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="4Zk-MJ-Ozc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="アカウント作成時は氏名を入力" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0S0-nv-fTA">
+                                <rect key="frame" x="57" y="332" width="300" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="mAZ-oP-vW4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kip-GS-r4P">
+                                <rect key="frame" x="57" y="376" width="300" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="k1x-vB-tSS"/>
+                                </constraints>
+                                <state key="normal" title="ログイン" backgroundImage="btn"/>
+                                <connections>
+                                    <action selector="handleLoginButton:" destination="RVH-zI-Piy" eventType="touchUpInside" id="WjX-iM-stu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0mz-UO-jal">
+                                <rect key="frame" x="57" y="426" width="300" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="vts-lQ-EGh"/>
+                                </constraints>
+                                <state key="normal" title="アカウント作成" backgroundImage="btn"/>
+                                <connections>
+                                    <action selector="handleCreateAccountButton:" destination="RVH-zI-Piy" eventType="touchUpInside" id="A5m-5w-7dE"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="パスワード" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jqK-bD-pVw">
+                                <rect key="frame" x="57" y="288" width="300" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="a25-gm-BxC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="alphabet" secureTextEntry="YES"/>
+                            </textField>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="5fu-MJ-6YV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kip-GS-r4P" firstAttribute="top" secondItem="0S0-nv-fTA" secondAttribute="bottom" constant="10" id="3ob-SC-F6U"/>
+                            <constraint firstItem="0mz-UO-jal" firstAttribute="centerX" secondItem="cdI-7g-vnW" secondAttribute="centerX" id="XVl-Ln-WTP"/>
+                            <constraint firstItem="0mz-UO-jal" firstAttribute="top" secondItem="kip-GS-r4P" secondAttribute="bottom" constant="10" id="aGp-ZP-1Eh"/>
+                            <constraint firstItem="0S0-nv-fTA" firstAttribute="top" secondItem="jqK-bD-pVw" secondAttribute="bottom" constant="10" id="bvt-4q-z92"/>
+                            <constraint firstItem="0S0-nv-fTA" firstAttribute="centerX" secondItem="cdI-7g-vnW" secondAttribute="centerX" id="k9a-us-JYE"/>
+                            <constraint firstItem="jqK-bD-pVw" firstAttribute="top" secondItem="4ru-eo-8uL" secondAttribute="bottom" constant="10" id="nhz-ZB-aXH"/>
+                            <constraint firstItem="4ru-eo-8uL" firstAttribute="top" secondItem="5fu-MJ-6YV" secondAttribute="top" constant="200" id="oYD-iA-Vp4"/>
+                            <constraint firstItem="4ru-eo-8uL" firstAttribute="centerX" secondItem="cdI-7g-vnW" secondAttribute="centerX" id="rvW-LL-rOo"/>
+                            <constraint firstItem="jqK-bD-pVw" firstAttribute="centerX" secondItem="cdI-7g-vnW" secondAttribute="centerX" id="szv-O3-u0m"/>
+                            <constraint firstItem="kip-GS-r4P" firstAttribute="centerX" secondItem="cdI-7g-vnW" secondAttribute="centerX" id="yxh-Er-YKb"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="displayNameTextField" destination="0S0-nv-fTA" id="PMB-Hx-TM2"/>
+                        <outlet property="mailAddressTextField" destination="4ru-eo-8uL" id="txS-nl-So6"/>
+                        <outlet property="passwordTextField" destination="jqK-bD-pVw" id="abn-WL-6vB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BLZ-b4-6AU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -311,6 +344,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Home black" width="17.5" height="17.5"/>
+        <image name="Identification" width="17" height="17"/>
+        <image name="Independent" width="17" height="17"/>
+        <image name="Next" width="17" height="17"/>
+        <image name="Pension" width="17.5" height="17.5"/>
+        <image name="btn" width="300" height="40"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
