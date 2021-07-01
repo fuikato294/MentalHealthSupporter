@@ -1,13 +1,13 @@
 //
-//  ScheduleViewController.swift
+//  InfomationViewController.swift
 //  MentalHealthSupporter
 //
-//  Created by fumitaka katou on 2021/06/14.
+//  Created by fumitaka katou on 2021/06/27.
 //
 
 import UIKit
 
-class ScheduleViewController: UIViewController {
+class InfomationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
