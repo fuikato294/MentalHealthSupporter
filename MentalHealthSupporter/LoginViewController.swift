@@ -64,6 +64,7 @@ class LoginViewController: UIViewController {
             SVProgressHUD.show()
             
             // アドレスとパスワードでユーザー作成。ユーザー作成に成功すると、自動的にログインする
+            // Auth(Firebase関連)
             Auth.auth().createUser(withEmail: address, password: password) { authResult, error in
                 if let error = error {
                     // エラーがあったら原因をprintして、returnすることで以降の処理を実行せずに処理を終了する

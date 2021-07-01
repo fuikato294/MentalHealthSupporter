@@ -11,7 +11,10 @@ import SVProgressHUD
 
 class SettingViewController: UIViewController {
     @IBOutlet weak var displayNameTextField: UITextField!
-
+    @IBAction func gotoHome(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     @IBAction func handleChangeButton(_ sender: Any) {
         if let displayName = displayNameTextField.text {
 
